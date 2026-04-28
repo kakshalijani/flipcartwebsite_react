@@ -1,0 +1,53 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.login-box {
+  display: flex;
+  width: 700px;
+  height: 400px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Left */
+.left {
+  width: 40%;
+  background: #2874f0;
+  color: white;
+  padding: 30px;
+}
+
+.left h2 {
+  margin-bottom: 20px;
+}
+
+/* Right */
+.right {
+  width: 60%;
+  padding: 30px;
+}
+
+.right input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #2874f0;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.terms {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.otp-btn {
+  width: 100%;
+  padding: 10px;
+  background: #fb641b;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
